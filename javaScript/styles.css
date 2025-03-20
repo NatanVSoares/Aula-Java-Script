@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+#area {
+    width: 90%;
+    min-height: 150px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Classes para modificar os elementos */
+
+.vermelho {
+    color: red;
+}
+
+.borda {
+    border: 2px solid black;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+
+
