@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio Ifood</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Alimentos Cibernéticos</h1>
+        <p>Adicione novos itens ao cardápio da sua Ciber Hamburgueria</p>
+    </header>
+
+    <div class="container">
+        <div class="formulario-container">
+            <h2 class="titulo-secao">Adicionar Novo Item</h2>
+
+                <div class="grupo-formulario">
+                    <label for="nome-alimento">Nome da Comida</label>
+                    <input type="text" id="nome-alimento" placeholder="Ex: X-Burguer Espacial">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="descricao-alimento">Descrição</label>
+                    <textarea id="descricao-alimento" placeholder="Descreva o alimento..."></textarea>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="imagem-alimento">URL da Imagem</label>
+                    <input type="text" id="imagem-alimento" placeholder="Cole a URL da imagem aqui">
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="preco-alimento">Preço (R$)</label>
+                    <input type="text" id="preco-alimento" placeholder="Ex: @& 00778451.00">
+                </div>
+
+                <button onclick="cadastrarItem()">Cadastrar Alimento</button>
+            
+        </div>
+
+        <div class="cardapio-container">
+            <h2 class="titulo-secao">Cardápio Atual</h2>
+            <div class="cards-alimentos">
+                <div class="card-alimento" id="ciberhamburguer" >
+                    <img  class="imagem-alimento" src="https://www.repstatic.it/content/contenthub/img/2023/11/22/130435773-458e9ad4-7617-469a-806f-c605e9f2cfa5.jpg">
+                    <div class="info-alimento">
+                        <h3 class="nome-alimento">X-Estrela Da Morte 💀☣️</h3>
+                        <p class="descricao-alimento"> X- burguer com polvo a milanesa com calda de uranio de Scardia </p>
+                        <p class="preco-alimento"> @& 001548586.00</p>
+                 </div>
+
+        </div>
+        </div>
+    </div>
+            
+    
+    <script src="script.js"></script>
+</body>
+</html>
