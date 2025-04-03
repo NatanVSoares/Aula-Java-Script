@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de infoprodutos</h1>
+    
+    <label for="nome">Digite um nome: </label>
+    <input type="text" name="nome" id="nome">
+
+    <br><br>
+
+    <label for="preco">Digite um preço:</label>
+    <input type="number" name="preco" id="preco">
+
+    <br><br>
+
+    <label for="imagem">Digite o link da imagem: </label>
+    <input type="url" name="imagem" id="imagem">
+
+    <br><br>
+
+    <button onclick="cadastrarInfoproduto()">Cadastrar</button>
+
+    <div id="listaInfoprodutos">
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

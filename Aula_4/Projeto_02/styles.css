@@ -1,0 +1,61 @@
+/* Definindo o estilo do corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 3rem;
+    color: #4B0082;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #4B0082;
+    display: block;
+    font-weight: 500;
+}
+
+/* Estilo dos campos de entrada */
+input {
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 5px;
+    width: 300px;
+    border: 2px solid #B8A7D6;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito de foco nos campos de entrada */
+input:focus {
+    border-color: #4B0082;
+    box-shadow: 0 0 5px rgba(75, 0, 130, 0.7);
+    outline: none;
+}
+
+/* Estilo do botão */
+button {
+    margin-top: 20px;
+    background-color: #4B0082;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
