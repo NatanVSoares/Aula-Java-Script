@@ -71,4 +71,34 @@ const cnpjInfinity = {
     }
   }
 
-  
+
+const nomeEmpresa = document.getElementById('nome-empresa')
+nomeEmpresa.innerHTML = cnpjInfinity.nome
+
+const nomeFantasia= document.getElementById('fantasia')
+nomeFantasia.innerHTML = cnpjInfinity.fantasia
+
+const numeroCnpj = document.getElementById('cnpj')
+numeroCnpj.innerHTML = cnpjInfinity.cnpj
+
+const tipoSituacao = document.getElementById('situacao')
+tipoSituacao.innerHTML = cnpjInfinity.situacao
+
+const nomeAbertura = document.getElementById('abertura')
+nomeAbertura.innerHTML = cnpjInfinity.abertura
+
+const valorCapitalsocial = document.getElementById('capital')
+valorCapitalsocial.innerHTML = cnpjInfinity.capital_social 
+
+const qualEmail = document.getElementById('email')
+qualEmail.innerHTML = cnpjInfinity.email 
+
+const numeroTelefone = document.getElementById('telefone')
+numeroTelefone.innerHTML = cnpjInfinity.telefone
+
+const enderecoCompleto = document.getElementById('endereco')
+enderecoCompleto.innerHTML = cnpjInfinity.logradouro
+
+
+
+
