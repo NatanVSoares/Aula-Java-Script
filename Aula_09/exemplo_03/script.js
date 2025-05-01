@@ -18,4 +18,4 @@ let listaNomes = ['João', 'Amanda']
 localStorage.setItem('nomes',JSON,Stringify(listaNomes))
 
 let nomesLocalStorage = JSON.parsa(localStorage.getItem('nomes'))
-
+b n vbn
